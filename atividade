@@ -1,0 +1,114 @@
+HTML (linguagem de marcação):
+
+	•	header, nav, section, article, footer
+	•	add imagens
+	•	atributos aria
+	•	target=’_blank’
+	•	input de texto
+
+CSS (linguagem de estilo em cascata):
+
+	•	display flex e grid
+	•	justify-content
+	•	efeito hover
+	•	estilo opacity
+	•	mídia queries
+	•	alinhamento de divs/imgs
+
+JavaScript (linguagem de programação):
+
+	•	js
+	•	local storage
+	•	alterar title via js
+	•	fetch
+	•	new Date()
+	•	função todo
+	•	object values
+	•	filter
+	•	typeof
+	•	eventListener de click
+
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo HTML</title>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <h2>Artigo</h2>
+            <p>Conteúdo do artigo vai aqui.</p>
+        </article>
+    </section>
+    <footer>
+        <p>Rodapé do site</p>
+    </footer>
+    <img src="imagem.jpg" alt="Imagem de Exemplo">
+    <a href="#" target="_blank">Link Abrindo em Nova Aba</a>
+    <input type="text" placeholder="Digite aqui">
+</body>
+</html>
+CSS
+/* Estilo do body usando flexbox */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Efeito de opacidade no hover da imagem */
+img:hover {
+    opacity: 0.8;
+}
+JAVASCRIPT
+// Armazenar um valor no local storage
+localStorage.setItem('username', 'João');
+
+// Alterar o título da página via JavaScript
+document.title = "Novo Título";
+
+// Realizar uma requisição fetch para obter dados de uma API
+fetch('https://api.example.com/data')
+  .then(response => response.json())
+  .then(data => console.log(data));
+
+// Obter a data atual
+const hoje = new Date();
+console.log(hoje);
+
+// Definir uma função para fazer
+function fazerTarefa(tarefa) {
+    console.log('Fazer:', tarefa);
+}
+
+// Obter os valores de um objeto
+const objeto = { a: 1, b: 2, c: 3 };
+console.log(Object.values(objeto));
+
+// Filtrar números pares de uma lista
+const numeros = [1, 2, 3, 4, 5];
+const numerosPares = numeros.filter(num => num % 2 === 0);
+console.log(numerosPares);
+
+// Verificar o tipo de uma variável
+console.log(typeof "Olá");
+
+// Adicionar um eventListener para detectar cliques em um botão
+document.querySelector('button').addEventListener('click', function() {
+    console.log('Botão clicado');
+});
