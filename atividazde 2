@@ -1,0 +1,102 @@
+Claro! Aqui estão alguns dos comandos básicos de HTML, CSS e JavaScript:
+
+HTML (HyperText Markup Language):
+
+<!DOCTYPE html>: Declaração do tipo de documento HTML.
+<html>: Define o início e o fim do documento HTML.
+<head>: Contém metadados da página, como título, links para estilos e scripts, entre outros.
+<title>: Define o título da página que é exibido na aba do navegador.
+<body>: Contém o conteúdo visível da página, como texto, imagens, links, etc.
+<h1>, <h2>, ..., <h6>: Define cabeçalhos de diferentes níveis.
+<p>: Define parágrafos de texto.
+<a>: Define hiperlinks para outras páginas.
+<img>: Insere imagens na página.
+<div>: Define divisões ou seções genéricas na página.
+<span>: Define uma parte de texto que pode ser estilizada separadamente.
+<ul> e <li>: Criam listas não ordenadas.
+<ol> e <li>: Criam listas ordenadas.
+<input>: Define campos de entrada, como campos de texto, caixas de seleção, etc.
+<form>: Define formulários para entrada de dados do usuário.
+CSS (Cascading Style Sheets):
+
+Seletores: Permitem selecionar elementos HTML para estilização.
+Propriedades: Controlam o estilo dos elementos selecionados, como cor, tamanho, margens, etc.
+Classes e IDs: Permitem atribuir estilos específicos a elementos individuais ou grupos de elementos.
+Box Model: Modela como os elementos HTML são renderizados no navegador, incluindo margens, bordas e preenchimento.
+Layouts: Controlam o posicionamento e a disposição dos elementos na página.
+Media Queries: Permitem definir estilos diferentes com base nas características do dispositivo, como tamanho da tela.
+Flexbox e Grid: Métodos modernos para criar layouts responsivos e complexos.
+Transições e Animações: Permitem adicionar movimento e efeitos visuais aos elementos da página.
+JavaScript:
+
+Variáveis: São usadas para armazenar dados.
+Operadores: Permitem realizar operações matemáticas e de comparação.
+Funções: Permitem agrupar blocos de código e reutilizá-los.
+Condicionais: Como if, else if e else, permitem controlar o fluxo do programa com base em condições.
+Laços de Repetição: Como for e while, permitem executar blocos de código várias vezes.
+Arrays: São estruturas de dados que armazenam coleções de elementos.
+Objetos: São estruturas de dados que armazenam coleções de pares chave-valor.
+Eventos: Permitem responder a ações do usuário, como cliques e teclas pressionadas.
+Manipulação do DOM: Permite acessar e modificar elementos HTML e seus atributos.
+XHR (XMLHttpRequest) e Fetch: Permitem fazer requisições a servidores web para obter ou enviar dados assincronamente.
+LocalStorage e SessionStorage: Permitem armazenar dados localmente no navegador do usuário.
+Date: Permite trabalhar com datas e horas.
+JSON: Permite converter entre objetos JavaScript e strings JSON.
+Callback Functions: São funções que são passadas como argumentos para outras funções e executadas posteriormente.
+Promises: São objetos que representam o sucesso ou a falha de uma operação assíncrona.
+Esses são apenas alguns dos comandos básicos de HTML, CSS e JavaScript que você encontrará ao desenvolver aplicações web.
+
+
+
+HTML:
+16. <table>: Define uma tabela.
+
+<tr>: Define uma linha em uma tabela.
+<td>: Define uma célula de dados em uma tabela.
+<th>: Define uma célula de cabeçalho em uma tabela.
+<form>: Define um formulário para entrada de dados do usuário.
+<input>: Define um campo de entrada, como um campo de texto, caixa de seleção, etc.
+<button>: Define um botão clicável.
+<label>: Define um rótulo para um elemento de formulário.
+<textarea>: Define uma área de texto multi-linhas para entrada de texto.
+<select>: Define um menu suspenso de opções.
+<option>: Define uma opção em um menu suspenso (<select>).
+<fieldset> e <legend>: Agrupam elementos de formulário relacionados e fornecem uma legenda para o grupo.
+<iframe>: Define um frame embutido para exibir outra página da web dentro da página atual.
+<audio>: Define um conteúdo de áudio, como música ou som.
+<video>: Define um conteúdo de vídeo.
+<canvas>: Define uma área gráfica para desenho com JavaScript.
+<embed>: Define um contêiner para conteúdo externo, como plug-ins de mídia.
+<abbr>: Define uma abreviação ou acrônimo.
+<address>: Define informações de contato, como um endereço postal ou de e-mail.
+CSS:
+9. Fontes: Define o estilo da fonte do texto, como tamanho, família e peso.
+
+Cores: Define cores para texto, fundo, bordas e outros elementos.
+Margens e Preenchimento: Define espaçamento ao redor dos elementos e dentro deles.
+Bordas: Define o estilo, largura e cor das bordas dos elementos.
+Posicionamento: Controla a posição dos elementos na página, como absoluto, relativo e fixo.
+Z-index: Controla a pilha de ordem dos elementos em relação uns aos outros.
+Opacidade e Transparência: Define a transparência dos elementos.
+Transformações: Permite girar, escalar, inclinar ou mover elementos.
+Transições e Animações: Adiciona efeitos de transição e animação a elementos.
+Grid: Define um sistema de layout bidimensional.
+Flexbox: Define um sistema de layout unidimensional.
+Estilos Responsivos: Adapta o layout e o estilo da página para diferentes tamanhos de tela e dispositivos.
+JavaScript:
+16. Eventos do Mouse: Como onclick, onmouseover, onmouseout, etc.
+
+Eventos de Teclado: Como onkeydown, onkeyup, etc.
+Eventos de Formulário: Como onsubmit, onchange, etc.
+Eventos de Janela: Como onload, onresize, etc.
+Event Listeners: Adiciona funções de callback para responder a eventos específicos.
+setTimeout() e setInterval(): Permitem a execução de código após um intervalo de tempo específico.
+document.getElementById(): Retorna uma referência ao elemento HTML com o ID especificado.
+document.querySelector(): Retorna a primeira ocorrência de um seletor CSS especificado.
+document.querySelectorAll(): Retorna uma lista de todos os elementos que correspondem a um seletor CSS especificado.
+Manipulação do DOM: Adiciona, remove ou modifica elementos e atributos HTML na página.
+Arrow Functions: Permitem criar funções de forma mais concisa.
+Template Literals: Permitem criar strings com interpolação de variáveis e expressões.
+Fetch API: Permite fazer requisições HTTP assíncronas.
+Promises: Representam o resultado de uma operação assíncrona e permitem lidar com o sucesso ou falha da operação.
+async/await: Fornece uma maneira mais simples e legível de trabalhar com código assíncrono, baseado em Promises.
